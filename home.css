@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.text-container {
+    width:100%;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    background:#8BC34A;
+    padding:50px 0 100px 0;
+    position:relative;
+}
+.text {
+    width:200px;
+    color:white;
+    background:#689F38;
+    padding:30px;
+    box-shadow:10px 10px 0px #FF9800
+}
+.logout {
+    position:absolute;
+    left:0;
+    bottom:30px;
+    width:100%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .text-container {
+        flex-wrap:wrap;
+    }
+    .text {
+        margin:20px 0;
+    }
+    .home {
+        min-height: 100vh;
+        background:#8BC34A;
+    }
+}

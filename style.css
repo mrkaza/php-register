@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+#app {
+    padding:100px 0;
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-color: #DCEDC8;
+}
+.log-reg {
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+   
+}
+.container {
+    width:500px;
+    background:#8BC34A;
+    padding-bottom:50px;
+}
+.log-reg h2 {
+    padding:10px;
+    width:50%;
+    text-align: center;
+}
+.log-reg h2:hover {
+    cursor:pointer;
+}
+.active {
+    background:#FF9800;
+}
+.forma {
+    width:100%;
+    text-align: center;
+}
+.forma input {
+    height: 25px;
+    width:80%;
+    margin-top:20px;
+    padding:0 10px;
+    outline:none;
+    background:#689F38;
+    border:none;
+    color:white;
+}
+::placeholder {
+    color:#DCEDC8;
+}
+button {
+    margin-top:15px;
+    width:75px;
+    border:none;
+    height: 40px;
+    background:#689F38;
+    box-shadow: 4px 4px 4px #FF9800;
+    outline:none;
+    color:white;
+}
+button:hover {
+    cursor:pointer;
+}
+.error {
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #app {
+        height: 100vh;
+        padding:0;
+    }
+}
+
+
+
