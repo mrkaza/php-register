@@ -1,11 +1,9 @@
 var app = new Vue({
     el:'#app',
     data: {
-        login:true,
-        registration:false,
 
-        }
-        
+        login:true,
+        registration:false,        
     },
     methods: {
         showLogin() {
